@@ -1,0 +1,88 @@
+body {
+    font-family: "Helvetica";
+    max-width: 55rem;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    width: 100%
+}
+
+td:nth-child(1) {
+    width: 30%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+td:nth-child(2) {
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+#content {
+    padding-bottom: 25%;
+}
+
+/* Style the menu bar at the bottom of the screen */
+#bottom-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Style the list inside the menu bar */
+#bottom-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* Style each menu item */
+#bottom-menu li {
+    flex: 1;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Style the links inside the menu */
+#bottom-menu a {
+    display: block;
+    color: #fff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Change link background color on hover */
+#bottom-menu a:hover {
+    background-color: #555;
+}
