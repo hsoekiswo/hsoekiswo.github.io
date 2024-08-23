@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Muscle Balance</h1>
+    <div id="content">
+        <!-- The generated content will be added here -->
+    </div>
+
+    <script>
+        function generateContent(count) {
+            const container = document.getElementById('content');
+
+            for (let i = 1; i <= count; i++) {
+                const h2 = document.createElement('h2');
+                h2.textContent = i;
+
+                const img = document.createElement('img'); // use 'img' instead of 'image'
+                img.src = `guideline/42-muscle-balance/${i}.png`;
+
+                container.appendChild(h2);
+                container.appendChild(img);
+            }
+        }
+
+        // Call the function to generate 10 items
+        generateContent(44);
+    </script>
+</body>

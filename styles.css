@@ -1,0 +1,84 @@
+.container {
+    border: 2px solid #ccc; /* Adds a small border around the container */
+    padding: 20px; /* Adds space inside the border */
+    margin: 20px auto; /* Centers the container horizontally but keeps the text left-aligned */
+    max-width: 800px; /* Limits the width of the container */
+}
+
+/* .zodiac {
+    font-size: 24px;
+} */
+
+.symbol {
+    display: inline-block;
+    margin-right: 15px; /* Adjust as needed */
+}
+
+div {
+    margin-bottom: 50px;
+}
+
+h1, h2, h3, h4 {
+    /* font-family: 'simple'; */
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    margin-left: calc(15px * 1);
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: calc(15px * 2);
+    font-size: 16px;
+}
+
+h4 {
+    margin-left: calc(15px * 2);
+    font-size: 12px;
+}
+
+ul li {
+    margin-left: calc(15px * 2);
+}
+
+.table-list ul li {
+    margin-left: 0;
+}
+
+img[src*='42-muscle-balance'] {
+    height: 500px;
+  }
+
+.one-page-pic {
+    width: 100%;
+}
+
+.one-page-table {
+    width: 80%;
+}
+
+table {
+    margin: calc(15px * 2);
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    width: 80%
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+th {
+    font-size: 28px;
+}
+
+td {
+    font-size: 16px;
+}
